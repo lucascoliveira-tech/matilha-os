@@ -56,3 +56,21 @@ Esta entrega é um protótipo interativo de frontend, não uma implementação d
 
 Retrato de cão por Shubham Patil, [WordPress Photo Directory](https://wordpress.org/photos/photo/18068c2884/), CC0. Uso como foto fictícia do cão Bento.
 
+
+## Ampliação: banho e tosa
+
+Solicitada após a aprovação do protótipo; não foram encontradas histórias específicas de banho e tosa na busca do projeto MAT. O módulo foi criado como ampliação do pedido, sem alterar o Jira.
+
+- Agenda por data, profissional e situação, com busca por pet ou tutor.
+- Serviços com preço por porte e duração configurável.
+- Agendamento e reagendamento com validação de disponibilidade, conflitos do profissional e do pet, jornada e dias de funcionamento.
+- Recebimento com condição da pelagem, pertences e conferência das restrições.
+- Etapas Agendado, Recebido, Em atendimento, Pronto e Entregue; cancelamento de agendamentos com motivo.
+- Adicionais autorizados pelo tutor, resumo do serviço e registro de ocorrências.
+- Uma cobrança gerada ao concluir, incluindo adicionais.
+- Retirada por responsável autorizado e conferência de pertences.
+- Histórico e perfis: Monitor acompanha e executa os cuidados; Recepção agenda, recebe e entrega; Gestor configura serviços e profissionais.
+
+17 grupos de testes adicionais validaram os fluxos de banho e tosa, além dos 17 grupos da operação original.
+
+Roteiro rápido: Banho e tosa → Bento → Receber → conferir restrições e pertences → Iniciar → Concluir → conferir cobrança no Financeiro → Entregar com pessoa autorizada. Use Theo para testar diretamente a conclusão de um serviço em andamento.
